@@ -1,0 +1,85 @@
+.stApp {
+    background: #F5F5DC;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    background: #800020;
+    color: #ffffff;
+}
+.title {
+    text-align:center;
+    font-size:34px;
+    font-weight:700;
+    margin-bottom:20px;
+    color: #000000;
+}
+div[data-testid="stTextInput"] input {
+    color: #000000;              
+    border-radius: 8px;
+}
+div.stButton > button {
+    background-color: #2563EB;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: 600;
+}
+ 
+div.stButton > button:hover {
+    background-color: #1D4ED8;
+}
+.card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 12px;
+    height: 100%;                 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+.card img {
+    width: 100%;
+    height: 180px;             
+    object-fit: contain;         
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #F9FAFB;    
+    
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 24px;                              
+}
+
+
+/* Tiêu đề */
+.card h4 {
+    font-size: 14px;
+    margin: 6px 0;
+    color: #111827;
+    height: 40px;                 
+    overflow: hidden;
+}
+
+
+.card .price {
+    font-weight: 600;
+    color: #722F37;               
+    margin-top: auto;
+}
+.user-box {
+    background:white;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+.tl_rec{
+    color: #000000;
+    font-size: 30px;
+}
